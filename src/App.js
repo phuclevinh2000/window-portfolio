@@ -9,7 +9,7 @@ function App() {
         <Route path='/' element={<SharedLayout />}>
           <Route index element={<div>About</div>} />
           <Route path='my-work' element={<div>Work</div>} />
-          <Route path='skills' element={<div>Skill</div>} />
+          <Route path='skills' element={<div>Skills</div>} />
           <Route path='hobby' element={<div>Hobby</div>} />
         </Route>
         <Route path='*' element={<Error />} />
